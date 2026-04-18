@@ -1,0 +1,28 @@
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+background:linear-gradient(to right,#0d6efd,#000);
+}
+
+.profile-img{
+width:150px;
+border-radius:50%;
+border:5px solid white;
+}
+
+.skill-card{
+transition:0.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-10px);
+}
+
+.project-card{
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+}
